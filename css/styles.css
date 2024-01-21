@@ -31,19 +31,27 @@ p {
   font-weight: bold; 
 }
 
+.blue1 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.6rem;
+  line-height: 1;
+  color: #74ebd5;  
+  /* font-weight: bold; */ 
+}
+
 .section-heading {
   font-size: 3rem;
   line-height: 1.5;
 }
 
 .content {
-  padding-top: 20%;
+  padding-top: 12%;
 }
 
 /* Containers */
 
 .container-fluid{
-  padding: 7% 15%;
+  padding: 1% 10%;
 }
 
 /* Sections */
@@ -111,7 +119,9 @@ p {
 /* ****** TITLE SECTION ****** */
 
 #title {   
-  height: 650px;  
+  height: 650px; 
+ /* height: 100vh;  */
+  width: 100%;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),
   url("nasa-Q1p7bh3SHj8-unsplash.jpg");
   background-repeat: no-repeat; 
@@ -124,6 +134,26 @@ p {
   padding: 3% 15% 7%;  
   height:100vh;
 }
+
+#logos div {
+  display: inline-block;  
+  
+}
+
+.logo {
+  margin-top: 100px;
+  height: 75px;
+  width: auto;  
+  box-shadow: 2px 2px 25px rgb(250, 249, 188);
+  }
+
+#practical {
+  margin-top: 100px;
+  height: 70px;
+  width: auto;  
+  box-shadow: 2px 2px 20px rgb(250, 249, 188); 
+}
+
 
 /* Multi slide carousel */
 
@@ -167,6 +197,7 @@ img {
   width: 100%;
   transition: transform 1s;
 }
+
 
 img:hover {
   transform: translateZ(20px);
@@ -325,6 +356,10 @@ img:hover {
 
 .social-icon:hover {
   color: orange;
+}
+
+.icons { 
+  color: #8f8f8f;
 }
 
 
